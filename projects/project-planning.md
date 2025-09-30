@@ -1,0 +1,48 @@
+# Project Planning Template
+
+## Purpose
+Generate high-level project documentation with actionable steps for new projects.
+
+## Context
+Use this at the start of any new project to create a structured implementation plan. This provides the roadmap before diving into detailed implementation.
+
+## Prompt
+```
+Create a high-level implementation plan for this project with the following structure:
+
+**Project Overview:**
+- Brief description of what we're building
+- Key objectives and success criteria
+- Tech stack and architecture approach
+
+**Implementation Phases:**
+Break down the project into logical phases with:
+- Clear milestones for each phase
+- Actionable steps within each phase (high-level only)
+- Dependencies between steps
+- Estimated complexity (simple/moderate/complex)
+
+**Quality Gates:**
+For each step:
+- Tests must pass (unit, integration, e2e as applicable)
+- Build must succeed
+- No step should proceed if the previous step has failures
+
+**Deliverables:**
+What should exist at the end of each phase?
+
+Keep everything at a high level - we'll develop detailed implementation later. Focus on the logical flow and what needs to be accomplished, not how.
+```
+
+## Expected Output
+A structured, high-level plan with:
+- Clear phases or milestones
+- Actionable steps within each phase
+- Quality gates (tests and build) between steps
+- Logical progression that can be executed incrementally
+
+## Notes
+- This is a gating approach - each step must be complete and validated before proceeding
+- Emphasizes test-driven development and continuous integration
+- Keep steps at a high level; detailed implementation comes later
+- Useful for both greenfield projects and major feature additions
