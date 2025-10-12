@@ -117,9 +117,8 @@ Use this template at the very beginning of a new project, before running the pla
 
 ## Next Steps
 Once this document is complete, proceed to the project planning workflow:
-1. Use `project-development/1. planning.md` to create high-level plan
-2. Use `project-development/2. detailed-planning-implementation.md` for detailed breakdown
-3. Use `project-development/3. progress-tracking.md` to create progress tracker in docs/PROGRESS.md
+1. Use `project-development/1. planning.md` to create high-level plan with phases and steps
+2. Use `project-development/3. progress-tracking.md` to create progress tracker in docs/PROGRESS.md
 
 ---
 

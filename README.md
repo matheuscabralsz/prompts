@@ -8,8 +8,9 @@ A curated collection of prompts for AI-assisted development, learning, and proje
 Multi-step workflows for complex development tasks.
 
 - **project-development/** - Sequential project workflow from planning to implementation
-  - `1. planning.md` - High-level project planning with phases and milestones
-  - `2. detailed-planning-implementation.md` - Detailed step-by-step documentation before coding
+  - `INITIAL_IDEA.md` - Template for capturing initial project concept
+  - `1. planning.md` - High-level project planning with phases and steps
+  - `3. progress-tracking.md` - Progress tracking template for implementation
 - `ci-cd-setup.md` - Setting up continuous integration and deployment pipelines
 - `testing-strategy.md` - Designing comprehensive testing strategies
 
@@ -47,10 +48,11 @@ Educational prompts for understanding concepts and technologies.
 
 ### Example Workflow: Starting a New Project
 
-1. Use `workflows/project-development/1. planning.md` to create high-level plan
-2. Use `workflows/project-development/2. detailed-planning-implementation.md` to document each step in detail
-3. Use `workflows/testing-strategy.md` to plan your testing approach
-4. Use `workflows/ci-cd-setup.md` to set up automation
+1. Fill out `project-development/INITIAL_IDEA.md` in your project's docs/ folder
+2. Use `project-development/1. planning.md` to create high-level plan with phases and steps
+3. Use `project-development/3. progress-tracking.md` to track implementation progress
+4. Use `workflows/testing-strategy.md` to plan your testing approach (optional)
+5. Use `workflows/ci-cd-setup.md` to set up automation (optional)
 
 ### Prompt File Structure
 
@@ -90,7 +92,7 @@ When contributing new prompts:
 2. **Follow naming conventions:**
    - Use kebab-case: `create-react-app.md`, `learn-docker-basics.md`
    - Be descriptive and concise
-   - Number files if they form a sequence (e.g., `1. planning.md`, `2. implementation.md`)
+   - Number files if they form a sequence (e.g., `1. planning.md`, `3. progress-tracking.md`)
 
 3. **Use the template structure:**
    - Include all sections: Purpose, Context, Prompt, Expected Output, Notes
