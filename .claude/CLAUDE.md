@@ -15,9 +15,10 @@ This is a prompts repository for storing and organizing AI assistant prompts use
 ```
 prompts/
 ├── project-development/          # Sequential project planning workflow
-│   ├── INITIAL_IDEA.md          # Template for capturing initial project concept
+│   ├── 0. initial-idea.md       # Template for capturing initial project concept
 │   ├── 1. planning.md           # High-level project planning
-│   └── 3. progress-tracking.md  # Feature completion tracking template
+│   ├── 3. progress-tracking.md  # Feature completion tracking template
+│   └── 4. create-claude-md.md   # Generate CLAUDE.md for new projects
 ├── workflows/                    # Multi-step workflows for complex tasks
 │   └── project-development/     # Symlink or reference to main workflow
 ├── templates/                    # Reusable prompt templates (future)
@@ -27,18 +28,18 @@ prompts/
 
 ## Project Development Workflow
 
-A simple **3-phase project planning and tracking process**:
+A simple **4-phase project planning and tracking process**:
 
-### Phase 1: Initial Idea Capture
-**File:** `project-development/INITIAL_IDEA.md`
+### Phase 0: Initial Idea Capture
+**File:** `project-development/0. initial-idea.md`
 - Template for documenting project concept and requirements
-- User fills this out in their project's `docs/` folder
+- User fills this out in their project's `docs/` folder as `initial-idea.md`
 - Prerequisites: None (always the starting point)
 
-### Phase 2: High-Level Planning
+### Phase 1: High-Level Planning
 **File:** `project-development/1. planning.md`
-- Prerequisites: Completed INITIAL_IDEA.md in docs/ folder
-- Reads INITIAL_IDEA.md to generate implementation plan
+- Prerequisites: Completed initial-idea.md in docs/ folder
+- Reads initial-idea.md to generate implementation plan
 - Creates phases with explicit dependencies or "None"
 - Keeps everything high-level - no implementation details
 - Defines quality gates (tests must pass, build must succeed)
@@ -50,9 +51,15 @@ A simple **3-phase project planning and tracking process**:
 - Uses checkboxes: [ ] not started, [~] in progress, [✓] complete
 - **After creating tracker, actual coding can begin**
 
+### Phase 4: Generate CLAUDE.md
+**File:** `project-development/4. create-claude-md.md`
+- Prerequisites: Complete initial-idea.md, planning.md, and PROGRESS.md
+- Generates `.claude/CLAUDE.md` with project-specific guidance
+- **After creating CLAUDE.md, actual coding can begin**
+
 ### Key Principles
 
-1. **Workflow**: INITIAL_IDEA.md → planning.md → progress-tracking.md → Coding
+1. **Workflow**: initial-idea.md → planning.md → progress-tracking.md → create-claude-md.md → Coding
 2. **Phase Independence**: Design phases to be independent when possible
 3. **Explicit Dependencies**: Each phase declares prerequisites or states "None"
 4. **Parallel Execution**: Independent phases can be worked on in any order
@@ -127,10 +134,11 @@ Additional tips or variations.
 5. Get user approval before saving changes
 
 ### Understanding the Main Workflow
-- **INITIAL_IDEA.md**: Template - users fill in their project's docs/ folder
-- **planning.md**: Reads docs/INITIAL_IDEA.md, creates phases with dependencies
-- **progress-tracking.md**: Creates docs/PROGRESS.md to track implementation
-- **No coding until planning and tracking setup is complete**
+- **0. initial-idea.md**: Template - users fill in their project's docs/ folder as `initial-idea.md`
+- **1. planning.md**: Reads docs/initial-idea.md, creates phases with dependencies
+- **3. progress-tracking.md**: Creates docs/PROGRESS.md to track implementation
+- **4. create-claude-md.md**: Generates .claude/CLAUDE.md with project guidance
+- **No coding until all planning documentation is complete**
 
 ## Common Tasks
 

@@ -1,112 +1,37 @@
 # Prompts Repository
 
-A curated collection of prompts for AI-assisted development, learning, and project creation.
+A collection of prompts designed to help vibe coding personal project ideas with AI assistance.
+
+## What is Vibe Coding?
+
+This repository provides a structured workflow for rapidly turning project ideas into reality using AI assistants like Claude Code. Instead of getting stuck in analysis paralysis, these prompts help you document your idea, plan implementation, and start coding quickly.
+
+## Quick Start
+
+### Project Development Workflow
+
+1. **Capture your idea**: Fill out `project-development/0. initial-idea.md` in your project's docs/ folder as `initial-idea.md`
+2. **Create a plan**: Use `project-development/1. planning.md` to generate implementation phases
+3. **Setup tracking**: Use `project-development/3. progress-tracking.md` to create a progress tracker
+4. **Generate guidance**: Use `project-development/4. create-claude-md.md` to create `.claude/CLAUDE.md`
+5. **Start coding**: Begin implementation with full documentation in place
 
 ## Repository Structure
 
-### 🔄 workflows/
-Multi-step workflows for complex development tasks.
-
-- **project-development/** - Sequential project workflow from planning to implementation
-  - `INITIAL_IDEA.md` - Template for capturing initial project concept
-  - `1. planning.md` - High-level project planning with phases and steps
-  - `3. progress-tracking.md` - Progress tracking template for implementation
-- `ci-cd-setup.md` - Setting up continuous integration and deployment pipelines
-- `testing-strategy.md` - Designing comprehensive testing strategies
-
-### 📝 templates/
-Reusable prompt templates for common development tasks.
-
-- `architecture-review.md` - Analyze and evaluate codebase architecture
-- `code-review.md` - Systematic code review for quality and security
-- `refactoring.md` - Guide code improvements and refactoring opportunities
-
-### 📁 projects/
-Prompts for creating new projects (organized by type when populated).
-
-- `web/` - Web applications
-- `backend/` - Backend services
-- `mobile/` - Mobile applications
-- `infrastructure/` - DevOps and infrastructure
-
-### 📚 learning/
-Educational prompts for understanding concepts and technologies.
-
-- `concepts/` - Learning specific concepts or patterns
-- `tutorials/` - Step-by-step learning guides
-- `examples/` - Generating example code
-
-## How to Use
-
-### Using Existing Prompts
-
-1. **Browse** the appropriate category based on your need
-2. **Read** the Purpose and Context sections to ensure it fits your use case
-3. **Copy** the prompt from the Prompt section
-4. **Customize** any placeholders (e.g., `[Step Number]`, `[Tech Stack]`)
-5. **Use** with your AI assistant (Claude, ChatGPT, etc.)
-
-### Example Workflow: Starting a New Project
-
-1. Fill out `project-development/INITIAL_IDEA.md` in your project's docs/ folder
-2. Use `project-development/1. planning.md` to create high-level plan with phases and steps
-3. Use `project-development/3. progress-tracking.md` to track implementation progress
-4. Use `workflows/testing-strategy.md` to plan your testing approach (optional)
-5. Use `workflows/ci-cd-setup.md` to set up automation (optional)
-
-### Prompt File Structure
-
-Each prompt follows a consistent template:
-
-```markdown
-# [Prompt Title]
-
-## Purpose
-Brief description of what this prompt accomplishes.
-
-## Context
-When and why to use this prompt.
-
-## Prompt
 ```
-The actual prompt text to use with AI assistants.
+project-development/     # Main workflow for vibe coding projects
+  ├── 0. initial-idea.md # Template for your project concept
+  ├── 1. planning.md     # Generate implementation plan
+  ├── 3. progress-tracking.md  # Create progress tracker
+  └── 4. create-claude-md.md   # Generate CLAUDE.md guidance
 ```
 
-## Expected Output
-Description of what the AI should produce.
+## How It Works
 
-## Notes
-Additional tips or variations.
-```
+Each prompt file follows a simple structure:
+- **Purpose**: What it does
+- **Pre-requirements**: What you need first
+- **Prompt**: Copy and use with your AI assistant
+- **Expected Output**: What you'll get
 
-## Adding New Prompts
-
-When contributing new prompts:
-
-1. **Choose the right category:**
-   - `workflows/` for multi-step processes
-   - `templates/` for reusable single-purpose prompts
-   - `projects/` for project creation prompts (organize by type)
-   - `learning/` for educational content
-
-2. **Follow naming conventions:**
-   - Use kebab-case: `create-react-app.md`, `learn-docker-basics.md`
-   - Be descriptive and concise
-   - Number files if they form a sequence (e.g., `1. planning.md`, `3. progress-tracking.md`)
-
-3. **Use the template structure:**
-   - Include all sections: Purpose, Context, Prompt, Expected Output, Notes
-   - Make prompts clear and actionable
-   - Add examples where helpful
-
-4. **Group related prompts:**
-   - Create subfolders for sequential workflows
-   - Keep related prompts together (e.g., `project-development/`)
-
-## Tips for Effective Prompts
-
-- **Be Specific**: Include relevant context and constraints
-- **Use Placeholders**: Mark areas for customization with `[brackets]`
-- **Define Output**: Clearly describe what you expect the AI to produce
-- **Iterate**: Refine prompts based on actual usage and results
-- **Document**: Add notes about when the prompt works best and any gotchas
+Start with `INITIAL_IDEA.md` and follow the numbered sequence. Each step builds on the previous one to get you coding faster.
