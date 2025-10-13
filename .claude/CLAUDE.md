@@ -17,8 +17,8 @@ prompts/
 ├── project-development/          # Sequential project planning workflow
 │   ├── 0. initial-idea.md       # Template for capturing initial project concept
 │   ├── 1. planning.md           # High-level project planning
-│   ├── 3. progress-tracking.md  # Feature completion tracking template
-│   └── 4. create-claude-md.md   # Generate CLAUDE.md for new projects
+│   ├── 2. progress-tracking.md  # Feature completion tracking template
+│   └── 3. create-claude-md.md   # Generate CLAUDE.md for new projects
 ├── workflows/                    # Multi-step workflows for complex tasks
 │   └── project-development/     # Symlink or reference to main workflow
 ├── templates/                    # Reusable prompt templates (future)
@@ -44,15 +44,15 @@ A simple **4-phase project planning and tracking process**:
 - Keeps everything high-level - no implementation details
 - Defines quality gates (tests must pass, build must succeed)
 
-### Phase 3: Progress Tracking
-**File:** `project-development/3. progress-tracking.md`
+### Phase 2: Progress Tracking
+**File:** `project-development/2. progress-tracking.md`
 - Prerequisites: Complete planning.md
 - Creates docs/PROGRESS.md to track implementation status
 - Uses checkboxes: [ ] not started, [~] in progress, [✓] complete
 - **After creating tracker, actual coding can begin**
 
-### Phase 4: Generate CLAUDE.md
-**File:** `project-development/4. create-claude-md.md`
+### Phase 3: Generate CLAUDE.md
+**File:** `project-development/3. create-claude-md.md`
 - Prerequisites: Complete initial-idea.md, planning.md, and PROGRESS.md
 - Generates `.claude/CLAUDE.md` with project-specific guidance
 - **After creating CLAUDE.md, actual coding can begin**
@@ -105,7 +105,7 @@ Additional tips or variations.
 ### Naming Conventions
 
 - Use kebab-case: `create-nextjs-app.md`, `learn-typescript-basics.md`
-- Number sequential workflows: `1. planning.md`, `3. progress-tracking.md`
+- Number sequential workflows: `1. planning.md`, `2. progress-tracking.md`
 - Use descriptive names that indicate purpose
 
 ## Important Principles
@@ -136,8 +136,8 @@ Additional tips or variations.
 ### Understanding the Main Workflow
 - **0. initial-idea.md**: Template - users fill in their project's docs/ folder as `initial-idea.md`
 - **1. planning.md**: Reads docs/initial-idea.md, creates phases with dependencies
-- **3. progress-tracking.md**: Creates docs/PROGRESS.md to track implementation
-- **4. create-claude-md.md**: Generates .claude/CLAUDE.md with project guidance
+- **2. progress-tracking.md**: Creates docs/PROGRESS.md to track implementation
+- **3. create-claude-md.md**: Generates .claude/CLAUDE.md with project guidance
 - **No coding until all planning documentation is complete**
 
 ## Common Tasks

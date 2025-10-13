@@ -12,8 +12,8 @@ This repository provides a structured workflow for rapidly turning project ideas
 
 1. **Capture your idea**: Fill out `project-development/0. initial-idea.md` in your project's docs/ folder as `initial-idea.md`
 2. **Create a plan**: Use `project-development/1. planning.md` to generate implementation phases
-3. **Setup tracking**: Use `project-development/3. progress-tracking.md` to create a progress tracker
-4. **Generate guidance**: Use `project-development/4. create-claude-md.md` to create `.claude/CLAUDE.md`
+3. **Setup tracking**: Use `project-development/2. progress-tracking.md` to create a progress tracker
+4. **Generate guidance**: Use `project-development/3. create-claude-md.md` to create `.claude/CLAUDE.md`
 5. **Start coding**: Begin implementation with full documentation in place
 
 ## Repository Structure
@@ -22,8 +22,8 @@ This repository provides a structured workflow for rapidly turning project ideas
 project-development/     # Main workflow for vibe coding projects
   ├── 0. initial-idea.md # Template for your project concept
   ├── 1. planning.md     # Generate implementation plan
-  ├── 3. progress-tracking.md  # Create progress tracker
-  └── 4. create-claude-md.md   # Generate CLAUDE.md guidance
+  ├── 2. progress-tracking.md  # Create progress tracker
+  └── 3. create-claude-md.md   # Generate CLAUDE.md guidance
 ```
 
 ## How It Works
