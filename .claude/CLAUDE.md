@@ -145,7 +145,7 @@ Additional tips or variations.
 ### Adding a New Sequential Workflow
 - Create folder under `workflows/` or in root
 - Number files sequentially
-- Document pre-requirements in each file
+- Document prerequisites in each file
 - Update this CLAUDE.md if it's a major workflow
 
 ### Adding a Template

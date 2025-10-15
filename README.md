@@ -54,7 +54,7 @@ Note: Additional prompt categories (workflows, templates, projects, learning) co
 
 Each prompt file follows a simple structure:
 - **Purpose**: What it does
-- **Pre-requirements**: What you need first
+- **Prerequisites**: What you need first
 - **Prompt**: Copy and use with your AI assistant
 - **Expected Output**: What you'll get
 
