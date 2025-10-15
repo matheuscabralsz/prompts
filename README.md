@@ -2,7 +2,7 @@
 
 A collection of prompts designed to help vibe coding personal project ideas with AI assistance.
 
-**Repository:** https://github.com/[username]/prompts
+**Repository:** [https://github.com/[matheuscabralsz]/prompts](https://github.com/matheuscabralsz/prompts)
 
 ## What is Vibe Coding?
 
