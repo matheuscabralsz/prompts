@@ -79,7 +79,7 @@ Brief description of what this prompt accomplishes.
 ## Context
 When and why to use this prompt.
 
-## Pre-requirements (if applicable)
+## Prerequisites (if applicable)
 What needs to exist before using this prompt.
 
 ## Prompt
@@ -114,7 +114,7 @@ Additional tips or variations.
 2. **Template Consistency**: All prompts follow the same structure
 3. **Organization First**: Always consider the right category and location
 4. **User Approval**: Present drafts to the user before saving
-5. **Pre-requirements**: Clearly document dependencies
+5. **Prerequisites**: Clearly document dependencies
 6. **Independence First**: Design for parallel work when possible
 
 ## Working with This Repository
@@ -122,14 +122,14 @@ Additional tips or variations.
 ### When Creating New Prompts
 1. Determine the appropriate category
 2. Follow the standard prompt template structure
-3. Add clear pre-requirements if needed
+3. Add clear prerequisites if needed
 4. Use descriptive names and numbering for sequential prompts
 5. Present the draft to the user before saving
 
 ### When Improving Existing Prompts
 1. Read the existing prompt to understand its purpose
 2. Maintain the template structure
-3. Ensure pre-requirements are clearly documented
+3. Ensure prerequisites are clearly documented
 4. Update workflow documentation if sequence changes
 5. Get user approval before saving changes
 
