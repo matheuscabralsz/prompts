@@ -32,7 +32,7 @@ Brief description of what this prompt accomplishes (1-2 sentences).
 ## Context
 When and why to use this prompt (1-2 paragraphs).
 
-## Pre-requirements (if applicable)
+## Prerequisites (if applicable)
 What needs to exist before using this prompt:
 - Bullet point list
 - Be specific (file names, completed steps, etc.)
@@ -87,7 +87,7 @@ Description of what the AI should produce:
 
 1. **Check for duplicates**: Search existing prompts to avoid redundancy
 2. **Identify the category**: Determine where it fits (workflows, templates, projects, learning)
-3. **Plan dependencies**: Identify any pre-requirements or related prompts
+3. **Plan dependencies**: Identify any prerequisites or related prompts
 
 ### Steps to Add a Prompt
 
@@ -105,7 +105,7 @@ Description of what the AI should produce:
 4. **Test the prompt**:
    - Try it with an AI assistant
    - Verify the output matches expectations
-   - Ensure pre-requirements are accurate
+   - Ensure prerequisites are accurate
 
 5. **Update documentation**:
    - Add entry to the main README.md if it's a major addition
@@ -123,7 +123,7 @@ Workflows are multi-step processes with interdependent prompts. When proposing a
 ### Workflow Requirements
 
 1. **Clear phases**: Define distinct steps with specific deliverables
-2. **Explicit dependencies**: State what must be completed before each phase
+2. **Explicit dependencies**: State what must be completed before each phase (prerequisites)
 3. **Quality gates**: Define success criteria for each phase
 4. **Independence when possible**: Design phases to be parallelizable if feasible
 
