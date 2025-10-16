@@ -1,11 +1,5 @@
 # Prompts Repository
 
-A collection of prompts designed to help vibe coding personal project ideas with AI assistance.
-
-**Repository:** [https://github.com/matheuscabralsz/prompts](https://github.com/matheuscabralsz/prompts)
-
-## What is Vibe Coding?
-
 This repository provides a structured workflow for rapidly turning project ideas into reality using AI assistants like Claude Code. Instead of getting stuck in analysis paralysis, these prompts help you document your idea, plan implementation, and start coding quickly.
 
 ## Quick Start
